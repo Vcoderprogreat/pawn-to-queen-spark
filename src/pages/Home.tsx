@@ -17,9 +17,7 @@ const Home = () => {
               <p>
                 Our mission is to provide <span className="text-maroon font-semibold">free, high-quality chess coaching</span> for players of all levels.
               </p>
-              <p>
-                Our state champion coaches create personalized lessons and work closely with each student to strengthen every part of their game.
-              </p>
+              <p>Our state champion and national finalist coaches create personalized lessons and work closely with each student to master every part of their game.</p>
               <p>
                 We aim to inspire and train the next generation of chess players—and create <span className="text-maroon font-semibold">future state champions</span>.
               </p>
