@@ -1,14 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
-
 const Home = () => {
-  return (
-    <Layout>
+  return <Layout>
       {/* Hero Section */}
-      <section 
-        className="relative min-h-[80vh] flex items-center px-4 sm:px-6 lg:px-8 bg-muted"
-      >
+      <section className="relative min-h-[80vh] flex items-center px-4 sm:px-6 lg:px-8 bg-muted">
         <div className="container mx-auto">
           {/* Left Content */}
           <div className="fade-in max-w-4xl">
@@ -46,26 +42,28 @@ const Home = () => {
       </section>
 
       {/* Quick Stats Section */}
-      <section className="py-16 bg-muted">
+      <section className="py-16 bg-slate-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="slide-in-up">
               <div className="text-4xl font-bold text-maroon mb-2">12</div>
               <div className="text-muted-foreground">Expert Coaches</div>
             </div>
-            <div className="slide-in-up" style={{ animationDelay: '0.2s' }}>
+            <div className="slide-in-up" style={{
+            animationDelay: '0.2s'
+          }}>
               <div className="text-4xl font-bold text-maroon mb-2">80+</div>
               <div className="text-muted-foreground">Students Coached</div>
             </div>
-            <div className="slide-in-up" style={{ animationDelay: '0.4s' }}>
+            <div className="slide-in-up" style={{
+            animationDelay: '0.4s'
+          }}>
               <div className="text-4xl font-bold text-maroon mb-2">10+</div>
               <div className="text-muted-foreground">Partner Schools</div>
             </div>
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default Home;
