@@ -63,5 +63,72 @@ const Home = () => {
         </div>
       </section>
     </Layout>;
+  <section className="py-12 bg-white">
+  <div className="max-w-6xl mx-auto px-4">
+    {/* Heading */}
+    <h2 className="text-3xl font-bold text-center text-[#6B0F1A] mb-10">
+      Parent Testimonials
+    </h2>
+
+    {/* Grid of Testimonials */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* Testimonial 1 */}
+      <div className="border-2 border-[#6B0F1A] rounded-xl p-6 shadow-sm text-center">
+        <h3 className="font-semibold text-[#6B0F1A] mb-3">Priya S.</h3>
+        <p className="text-gray-700">
+          “My son looks forward to every class! The coaches are patient and
+          explain concepts clearly. I’ve seen his confidence grow both in chess
+          and outside of it.”
+        </p>
+      </div>
+
+      {/* Testimonial 2 */}
+      <div className="border-2 border-[#6B0F1A] rounded-xl p-6 shadow-sm text-center">
+        <h3 className="font-semibold text-[#6B0F1A] mb-3">David R.</h3>
+        <p className="text-gray-700">
+          “The personalized attention is incredible. Even though the academy is
+          free, the quality feels top-tier. My daughter has already improved in
+          her tournament play.”
+        </p>
+      </div>
+
+      {/* Testimonial 3 */}
+      <div className="border-2 border-[#6B0F1A] rounded-xl p-6 shadow-sm text-center">
+        <h3 className="font-semibold text-[#6B0F1A] mb-3">Maria L.</h3>
+        <p className="text-gray-700">
+          “I appreciate how flexible the classes are. It makes it easy to keep
+          my child engaged with chess even with a busy schedule.”
+        </p>
+      </div>
+
+      {/* Testimonial 4 */}
+      <div className="border-2 border-[#6B0F1A] rounded-xl p-6 shadow-sm text-center">
+        <h3 className="font-semibold text-[#6B0F1A] mb-3">Jason K.</h3>
+        <p className="text-gray-700">
+          “The end-of-session tournament was a highlight! My son learned so much
+          and had a great time competing with his peers.”
+        </p>
+      </div>
+
+      {/* Testimonial 5 */}
+      <div className="border-2 border-[#6B0F1A] rounded-xl p-6 shadow-sm text-center">
+        <h3 className="font-semibold text-[#6B0F1A] mb-3">Anita B.</h3>
+        <p className="text-gray-700">
+          “This program goes above and beyond. My daughter’s understanding of
+          strategy has improved tremendously.”
+        </p>
+      </div>
+
+      {/* Testimonial 6 */}
+      <div className="border-2 border-[#6B0F1A] rounded-xl p-6 shadow-sm text-center">
+        <h3 className="font-semibold text-[#6B0F1A] mb-3">Chris T.</h3>
+        <p className="text-gray-700">
+          “It’s rare to find free coaching of this quality. The dedication of
+          the coaches really shows in the progress the kids make.”
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 };
 export default Home;
