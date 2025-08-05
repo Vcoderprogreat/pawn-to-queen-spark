@@ -56,8 +56,8 @@ const Home = () => {
             <div className="slide-in-up" style={{
             animationDelay: '0.4s'
           }}>
-              <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">10+</div>
-              <div className="text-lg md:text-xl text-muted-foreground font-medium">Partner Schools</div>
+              <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">130+</div>
+              <div className="text-lg md:text-xl text-muted-foreground font-medium">Classes Taught</div>
             </div>
           </div>
         </div>
