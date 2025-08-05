@@ -42,24 +42,24 @@ const Home = () => {
       </section>
 
       {/* Quick Stats Section */}
-      <section className="py-16 bg-gray-200">
+      <section className="py-16 bg-muted">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="slide-in-up">
-              <div className="text-4xl font-bold text-maroon mb-2">12</div>
-              <div className="text-muted-foreground">Expert Coaches</div>
+              <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">12</div>
+              <div className="text-lg md:text-xl text-muted-foreground font-medium">Expert Coaches</div>
             </div>
             <div className="slide-in-up" style={{
             animationDelay: '0.2s'
           }}>
-              <div className="text-4xl font-bold text-maroon mb-2">80+</div>
-              <div className="text-muted-foreground">Students Coached</div>
+              <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">80+</div>
+              <div className="text-lg md:text-xl text-muted-foreground font-medium">Students Coached</div>
             </div>
             <div className="slide-in-up" style={{
             animationDelay: '0.4s'
           }}>
-              <div className="text-4xl font-bold text-maroon mb-2">10+</div>
-              <div className="text-muted-foreground">Partner Schools</div>
+              <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">10+</div>
+              <div className="text-lg md:text-xl text-muted-foreground font-medium">Partner Schools</div>
             </div>
           </div>
         </div>
