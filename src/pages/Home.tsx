@@ -19,7 +19,7 @@ const Home = () => {
               </p>
               <p>Our state champion and national finalist coaches create <span className="text-maroon font-semibold">personalized lessons</span> and work closely with each student to master every part of their game.</p>
               <p>
-                We aim to inspire and train the next generation of chess players—and create <span className="text-maroon font-semibold">future state champions</span>.
+                We're here to train the next generation of chess players and create <span className="text-maroon font-semibold">future state champions</span>.
               </p>
             </div>
 
