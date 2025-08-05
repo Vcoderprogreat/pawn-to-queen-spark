@@ -1,27 +1,20 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
-import heroImage from "@/assets/chess-hero-bg.jpg";
-import pawnToQueenImage from "@/assets/pawn-to-queen.jpg";
 
 const Home = () => {
   return (
     <Layout>
       {/* Hero Section */}
       <section 
-        className="relative min-h-[80vh] flex items-center px-4 sm:px-6 lg:px-8"
-        style={{
-          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(${heroImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
+        className="relative min-h-[80vh] flex items-center px-4 sm:px-6 lg:px-8 bg-muted"
       >
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div className="container mx-auto">
           {/* Left Content */}
-          <div className="fade-in">
+          <div className="fade-in max-w-4xl">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-primary mb-8 leading-tight">
-              Pawn to Queen Chess Coaching
+              Pawn to Queen<br />
+              Chess Coaching
             </h1>
             
             <div className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 space-y-4">
@@ -47,17 +40,6 @@ const Home = () => {
                   Learn More
                 </Button>
               </Link>
-            </div>
-          </div>
-
-          {/* Right Image */}
-          <div className="hidden lg:flex justify-center items-center">
-            <div className="slide-in-up">
-              <img 
-                src={pawnToQueenImage} 
-                alt="Chess pieces showing progression from pawn to queen" 
-                className="w-full max-w-md rounded-lg elegant-shadow"
-              />
             </div>
           </div>
         </div>
