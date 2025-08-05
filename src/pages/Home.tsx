@@ -42,7 +42,7 @@ const Home = () => {
       </section>
 
       {/* Quick Stats Section */}
-      <section className="py-16 bg-neutral-200">
+      <section className="py-16 bg-gray-200">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="slide-in-up">
