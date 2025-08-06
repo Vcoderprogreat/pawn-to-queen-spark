@@ -1,27 +1,61 @@
 import Layout from "@/components/Layout";
 import { Card, CardContent } from "@/components/ui/card";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Users, BookOpen, Trophy, Target } from "lucide-react";
 
 const About = () => {
-  const stats = [
-    { icon: Users, number: "12", label: "Coaches" },
-    { icon: BookOpen, number: "80+", label: "Students" },
-    { icon: Trophy, number: "10+", label: "Schools" },
+  const achievements = [
+    "Captain of Brookfield East High School Varsity 1 Team",
+    "Competed at Division 1 State Championship and Placed 7th with Team",
+    "Former Captain of the Pilgrim Park Middle School Chess Team",
+    "Led Pilgrim Park Team to 2nd at State Championship",
+    "1st Place in the IAC Season Opener 2024",
+    "1st Place in Madison East Scholastic Championship 2024",
+    "1st Place in 3rd Annual Daniel Perelman Scholastic 2024",
+    "Top 5 in Multiple Tournaments",
+    "1270 Regular USCF and 1284 USCF Blitz Rating",
+    "Regularly Volunteer and Teach 40+ Students at a Local Chess Program"
   ];
 
-  const achievements = [
-    "Wisconsin High School Chess Champion",
-    "Multiple Regional Tournament Winner", 
-    "USCF Tournament Experience",
-    "Youth Chess Development Specialist",
-    "Certified Chess Instructor",
-    "School Chess Program Developer"
+  const faqData = [
+    {
+      question: "Are all classes really free?",
+      answer: "Yes! Pawn to Queen Chess Coaching is 100% free. Our mission is to make quality chess coaching accessible to every student, regardless of their financial situation."
+    },
+    {
+      question: "How big are the classes?",
+      answer: "Classes typically have 2–4 students. This keeps groups small enough for personal attention, while still allowing kids to learn and practice with their peers."
+    },
+    {
+      question: "What level of players can join?",
+      answer: "We welcome students from complete beginners to around 1400 USCF. If your child is above that level, please reach out to discuss advanced coaching opportunities."
+    },
+    {
+      question: "Where do classes take place?",
+      answer: "Classes are held online through Google Meet and Lichess."
+    },
+    {
+      question: "What if my child misses a class?",
+      answer: "No problem! Since our program is flexible, students can miss a class occasionally. We encourage regular attendance for best results, but we post lesson reviews weekly."
+    },
+    {
+      question: "Do students get homework?",
+      answer: "Yes, we provide optional practice exercises and puzzles each week. While not required, completing homework helps reinforce what's learned in class."
+    },
+    {
+      question: "Will my child get a chance to play in tournaments?",
+      answer: "Yes! At the end of each summer session, we host a tournament where students can compete against others at their level. We also encourage participation in USCF-rated events."
+    },
+    {
+      question: "How do I know what class to sign up for?",
+      answer: "Beginner: Students who casually play against family or friends (No USCF Rating). Intermediate: Students who are in a school club or play online regularly (USCF Rating under 800). Advanced: Players who compete in OTB tournaments or are on a school team (USCF Rating over 800). If you are unsure, feel free to contact Vedh.bagare@gmail.com."
+    }
   ];
 
   return (
     <Layout>
       {/* Mission Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-background to-muted">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-8 fade-in">
             About Our Academy
@@ -33,22 +67,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-muted">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {stats.map((stat, index) => (
-              <Card key={index} className="text-center card-shadow slide-in-up" style={{ animationDelay: `${index * 0.2}s` }}>
-                <CardContent className="p-8">
-                  <stat.icon className="h-12 w-12 text-maroon mx-auto mb-4" />
-                  <div className="text-4xl font-bold text-maroon mb-2">{stat.number}</div>
-                  <div className="text-muted-foreground text-lg">{stat.label}</div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Founder Bio Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
@@ -107,6 +125,32 @@ const About = () => {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto max-w-4xl">
+          <h3 className="text-2xl font-bold text-maroon text-center mb-8 fade-in">
+            FAQ
+          </h3>
+          <Accordion type="single" collapsible className="space-y-4">
+            {faqData.map((faq, index) => (
+              <AccordionItem 
+                key={index} 
+                value={`item-${index}`} 
+                className="bg-background rounded-lg card-shadow slide-in-up border-none"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <AccordionTrigger className="px-6 py-4 font-bold text-left hover:no-underline hover:bg-muted/50 rounded-lg transition-colors">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="px-6 pb-4 text-muted-foreground leading-relaxed">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
       </section>
     </Layout>
