@@ -61,8 +61,7 @@ const About = () => {
             About Our Academy
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed slide-in-up">
-            Our mission is to provide free, high-quality chess coaching for players of all levels, 
-            creating the next generation of strategic thinkers and champions.
+            In 2025, we launched Pawn to Queen Chess Coaching with a simple idea: free, structured chess coaching for everyone. Since then, we’ve grown to a community of over 80 families across Wisconsin and even had some success internationally in Canada. In 2026, we plan to expand by offering in-person coaching and opening chapters in other states. With every new student, we show that all pawns have the potential to become a queen. 
           </p>
         </div>
       </section>
