@@ -1,8 +1,11 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const location = useLocation();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
     { to: "/about", label: "About" },
@@ -39,11 +42,33 @@ const Navbar = () => {
 
           {/* Mobile menu button */}
           <div className="md:hidden">
-            <Button variant="ghost" size="sm">
-              Menu
+            <Button 
+              variant="ghost" 
+              size="sm"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              {isMobileMenuOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
             </Button>
           </div>
         </div>
+
+        {/* Mobile menu dropdown */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden border-t border-border bg-background/95 backdrop-blur">
+            <div className="px-4 py-2 space-y-1">
+              {navLinks.map((link) => (
+                <Link key={link.to} to={link.to} onClick={() => setIsMobileMenuOpen(false)}>
+                  <Button
+                    variant={location.pathname === link.to ? "default" : "ghost"}
+                    className="w-full justify-start smooth-transition hover:bg-maroon-light hover:text-maroon"
+                  >
+                    {link.label}
+                  </Button>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );

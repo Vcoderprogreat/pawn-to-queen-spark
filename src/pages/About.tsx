@@ -60,7 +60,7 @@ const About = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-8 fade-in">
             About Our Academy
           </h1>
-          <p className="text-lg text-muted-foreground leading-relaxed slide-in-up">
+          <p className="text-lg text-muted-foreground leading-relaxed fade-in" style={{ animationDelay: '0.3s' }}>
             In 2025, we launched Pawn to Queen Chess Coaching with a simple idea: free, structured chess coaching for everyone. Since then, we’ve grown to a community of over 80 families across Wisconsin and even had some success internationally in Canada. In 2026, we plan to expand by offering in-person coaching and opening chapters in other states. With every new student, we show that all pawns have the potential to become a queen. 
           </p>
         </div>
@@ -71,19 +71,19 @@ const About = () => {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Image Placeholder */}
-            <div className="slide-in-up">
-              <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                <div className="text-center text-muted-foreground">
-                  <Users className="h-24 w-24 mx-auto mb-4" />
-                  <p>Vedh Bagare Photo</p>
-                  <p className="text-sm">(Photo placeholder)</p>
-                </div>
+            {/* Vedh Bagare Photo */}
+            <div className="fade-in">
+              <div className="aspect-square bg-muted rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/b6d0a3c8-ee60-4385-a415-a652101ef7f0.png" 
+                  alt="Vedh Bagare, Founder & Head Coach of Pawn to Queen Chess Coaching" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
             {/* Bio Content */}
-            <div className="slide-in-up" style={{ animationDelay: '0.3s' }}>
+            <div className="fade-in" style={{ animationDelay: '0.6s' }}>
               <h2 className="text-3xl font-bold text-primary mb-4">
                 Vedh Bagare — Founder & Head Coach
               </h2>
