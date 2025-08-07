@@ -87,8 +87,7 @@ const GetStarted = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Join our community of chess learners and give your child the opportunity to develop 
                 critical thinking skills, strategic planning abilities, and confidence through chess. 
-                Our expert coaches will assess your child's current level and create a personalized 
-                learning plan to help them reach their full potential.
+                More information about class placement and class scheduling will be sent as the summer session approaches.
               </p>
             </CardHeader>
             

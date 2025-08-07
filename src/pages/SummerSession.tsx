@@ -9,7 +9,7 @@ const SummerSession = () => {
   }, {
     icon: Zap,
     title: "Completely Free",
-    description: "No money involved. All coaching, materials, and tournaments are provided at no cost to families."
+    description: "No money involved. All classes and materials are provided at no cost to students."
   }, {
     icon: Calendar,
     title: "Flexible",
@@ -17,16 +17,16 @@ const SummerSession = () => {
   }];
   const curriculum = [{
     level: "Beginner",
-    description: "Learn basic piece movements, fundamental tactics, and essential opening principles.",
-    topics: ["Piece movement & values", "Basic tactics", "Opening principles", "Endgame basics"]
+    description: "Learn basic piece movements, fundamental ideas, and essential opening principles.",
+    topics: ["Piece Movement and Values", "Basic Endgames", "Opening Principles", "Middlegame Ideas", "Common Tactics"]
   }, {
     level: "Intermediate",
     description: "Develop strategic thinking, advanced tactics, and deeper opening understanding.",
-    topics: ["Strategic concepts", "Complex tactics", "Opening systems", "Middle game planning"]
+    topics: ["Common Endgames", "System Openings", "Attacking and Defending", "Calculation Principles", "Checkmate Patterns"]
   }, {
     level: "Advanced",
     description: "Master tournament preparation, advanced theory, and competitive psychology.",
-    topics: ["Tournament prep", "Advanced theory", "Psychological aspects", "Master-level analysis"]
+    topics: ["Advanced Endgame Theory", "Full Opening Repertoire", "Positional Play", "Complex Calculation", "Master-level Analysis"]
   }];
   return <Layout>
       {/* Header Section */}
