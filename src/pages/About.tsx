@@ -57,11 +57,11 @@ const About = () => {
       {/* Mission Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-background to-muted">
         <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-8 fade-in">
+          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-8">
             About Our Academy
           </h1>
-          <p className="text-lg text-muted-foreground leading-relaxed fade-in" style={{ animationDelay: '0.3s' }}>
-            In 2025, we launched Pawn to Queen Chess Coaching with a simple idea: free, structured chess coaching for everyone. Since then, we’ve grown to a community of over 80 families across Wisconsin and even had some success internationally in Canada. In 2026, we plan to expand by offering in-person coaching and opening chapters in other states. With every new student, we show that all pawns have the potential to become a queen. 
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            In 2025, we launched Pawn to Queen Chess Coaching with a simple idea: free, structured chess coaching for everyone. Since then, we've grown to a community of over 80 families across Wisconsin and even had some success internationally in Canada. In 2026, we plan to expand by offering in-person coaching and opening chapters in other states. With every new student, we show that all pawns have the potential to become a queen. 
           </p>
         </div>
       </section>
@@ -70,7 +70,7 @@ const About = () => {
       {/* Founder Bio Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-4xl text-center">
-          <div className="slide-in-up">
+          <div>
             <h2 className="text-3xl font-bold text-primary mb-4">
               Vedh Bagare — Founder & Head Coach
             </h2>
@@ -86,15 +86,14 @@ const About = () => {
       {/* Experience Section */}
       <section className="py-16 bg-muted">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-          <h3 className="text-2xl font-bold text-primary text-center mb-8 fade-in">
+          <h3 className="text-2xl font-bold text-primary text-center mb-8">
             Achievements & Experience
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {achievements.map((achievement, index) => (
               <div 
                 key={index} 
-                className="flex items-center space-x-3 p-4 bg-background rounded-lg card-shadow slide-in-up"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="flex items-center space-x-3 p-4 bg-background rounded-lg card-shadow"
               >
                 <Target className="h-5 w-5 text-maroon flex-shrink-0" />
                 <span className="text-muted-foreground">{achievement}</span>
@@ -107,7 +106,7 @@ const About = () => {
       {/* FAQ Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-4xl">
-          <h3 className="text-2xl font-bold text-maroon text-center mb-8 fade-in">
+          <h3 className="text-2xl font-bold text-maroon text-center mb-8">
             FAQ
           </h3>
           <Accordion type="single" collapsible className="space-y-4">
@@ -115,8 +114,7 @@ const About = () => {
               <AccordionItem 
                 key={index} 
                 value={`item-${index}`} 
-                className="bg-background rounded-lg card-shadow slide-in-up border-none"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="bg-background rounded-lg card-shadow border-none"
               >
                 <AccordionTrigger className="px-6 py-4 font-bold text-left hover:no-underline hover:bg-muted/50 rounded-lg transition-colors">
                   {faq.question}
