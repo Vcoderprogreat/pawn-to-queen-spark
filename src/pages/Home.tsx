@@ -43,19 +43,15 @@ const Home = () => {
       <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div className="slide-in-up">
+            <div>
               <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">12</div>
               <div className="text-lg md:text-xl text-muted-foreground font-medium">Expert Coaches</div>
             </div>
-            <div className="slide-in-up" style={{
-            animationDelay: '0.2s'
-          }}>
+            <div>
               <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">80+</div>
               <div className="text-lg md:text-xl text-muted-foreground font-medium">Students Coached</div>
             </div>
-            <div className="slide-in-up" style={{
-            animationDelay: '0.4s'
-          }}>
+            <div>
               <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">130+</div>
               <div className="text-lg md:text-xl text-muted-foreground font-medium">Classes Taught</div>
             </div>

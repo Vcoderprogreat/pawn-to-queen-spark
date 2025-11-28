@@ -31,12 +31,10 @@ const GetStarted = () => {
       {/* Header Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-background to-muted">
         <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6 fade-in">
+          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
             Get Started with Pawn to Queen Chess Coaching
           </h1>
-          <p className="text-xl text-muted-foreground fade-in" style={{
-          animationDelay: '0.3s'
-        }}>
+          <p className="text-xl text-muted-foreground">
             Begin your child's chess journey with expert coaching at no cost
           </p>
         </div>
@@ -45,14 +43,12 @@ const GetStarted = () => {
       {/* Testimonials Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold text-primary text-center mb-12 fade-in">
+          <h2 className="text-3xl font-bold text-primary text-center mb-12">
             What Parents Are Saying
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {testimonials.map((testimonial, index) => <Card key={index} className="card-shadow slide-in-up" style={{
-            animationDelay: `${index * 0.1}s`
-          }}>
+            {testimonials.map((testimonial, index) => <Card key={index} className="card-shadow">
                 <CardContent className="p-6">
                   <Quote className="h-8 w-8 text-maroon mb-4" />
                   <blockquote className="text-muted-foreground italic mb-4 leading-relaxed">
@@ -71,7 +67,7 @@ const GetStarted = () => {
       {/* Registration Form Section */}
       <section className="py-16 bg-muted">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-          <Card className="card-shadow slide-in-up">
+          <Card className="card-shadow">
             <CardHeader className="text-center">
               <CardTitle className="text-2xl text-maroon mb-4">
                 Ready to Begin? Register Your Child Today

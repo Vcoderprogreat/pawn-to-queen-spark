@@ -240,10 +240,10 @@ const Coaches = () => {
       {/* Header Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-background to-muted">
         <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6 fade-in">
+          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
             Meet Our Coaches
           </h1>
-          <p className="text-xl text-muted-foreground fade-in" style={{ animationDelay: '0.3s' }}>
+          <p className="text-xl text-muted-foreground">
             Learn from experienced chess players and dedicated educators
           </p>
         </div>
@@ -259,7 +259,7 @@ const Coaches = () => {
                 open={openCoach === index}
                 onOpenChange={() => toggleCoach(index)}
               >
-                <Card className="card-shadow slide-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
+                <Card className="card-shadow">
                   <CollapsibleTrigger asChild>
                     <CardHeader className="cursor-pointer hover:bg-muted/50 smooth-transition">
                       <div className="flex items-center justify-between">
