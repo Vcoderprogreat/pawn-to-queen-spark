@@ -69,12 +69,12 @@ const About = () => {
 
       {/* Founder Bio Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="container mx-auto max-w-4xl">
+        <div className="container mx-auto max-w-4xl text-center">
           <div className="slide-in-up">
             <h2 className="text-3xl font-bold text-primary mb-4">
               Vedh Bagare — Founder & Head Coach
             </h2>
-            <div className="prose prose-lg text-muted-foreground leading-relaxed space-y-4">
+            <div className="prose prose-lg text-muted-foreground leading-relaxed space-y-4 mx-auto">
               <p>
                 My name is Vedh Bagare, and I am a rising Sophomore at Brookfield East High School. 
                 I have been playing chess for most of my life and got into competitive chess a few years ago.
