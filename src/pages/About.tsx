@@ -76,16 +76,7 @@ const About = () => {
             </h2>
             <div className="prose prose-lg text-muted-foreground leading-relaxed space-y-4 mx-auto">
               <p>
-                My name is Vedh Bagare, and I am a rising Sophomore at Brookfield East High School. 
-                I have been playing chess for most of my life and got into competitive chess a few years ago.
-              </p>
-              <p>
-                I got into chess coaching through teaching my sister and friends. I founded this academy 
-                because when I began my competitive journey, I couldn't find any free coaching.
-              </p>
-              <p>
-                I have many friends who love chess, but don't know how to improve, and through this academy, 
-                I hope to support them and give back to the chess community as a whole.
+                My name is Vedh Bagare, and I am a rising Sophomore at Brookfield East High School. I have been playing chess for most of my life and got into competitive chess a few years ago. I got into chess coaching through teaching my sister and friends. I founded this academy because when I began my competitive journey, I couldn't find any free coaching. I have many friends who love chess, but don't know how to improve, and through this academy, I hope to support them and give back to the chess community as a whole.
               </p>
             </div>
           </div>
