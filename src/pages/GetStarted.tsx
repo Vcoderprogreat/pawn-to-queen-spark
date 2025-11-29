@@ -3,29 +3,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Quote } from "lucide-react";
 const GetStarted = () => {
   const testimonials = [{
-    quote: "The personalized coaching helped my daughter improve her game dramatically. The coaches are patient and knowledgeable.",
-    author: "Parent Testimonial 1",
-    role: "Parent of Elementary Student"
+    quote: "Vedh and all the coaches have been great chess mentors this summer. The classes were very well organized and the curriculum was planned with detail. My son learned some great chess skills, and we definitely saw his game improve over the summer.",
+    author: "Parent of Intermediate Student",
+    role: ""
   }, {
-    quote: "Free quality coaching that actually works! My son went from beginner to winning school tournaments in just one semester.",
-    author: "Parent Testimonial 2",
-    role: "Parent of Middle School Student"
+    quote: "My daughter's teacher was very professional and answered all questions. We took a vacation halfway through the summer session, and Vedh made sure to provide us with the resources to make sure she didn't fall behind. I will definitely sign up my daughter again next year.",
+    author: "Parent of Beginner Student",
+    role: ""
   }, {
-    quote: "The tournament preparation and psychological training gave my child confidence both on and off the chessboard.",
-    author: "Parent Testimonial 3",
-    role: "Parent of High School Student"
-  }, {
-    quote: "Excellent program with dedicated coaches who truly care about each student's development and progress.",
-    author: "Parent Testimonial 4",
-    role: "Parent of Advanced Student"
-  }, {
-    quote: "My child looks forward to chess lessons every week. The coaches make learning fun and engaging.",
-    author: "Parent Testimonial 5",
-    role: "Parent of Beginner Student"
-  }, {
-    quote: "Outstanding coaching that helped develop not just chess skills, but critical thinking and problem-solving abilities.",
-    author: "Parent Testimonial 6",
-    role: "Parent of Intermediate Student"
+    quote: "We were thrilled to hear of this summer chess opportunity offered from an experienced high schooler. My son learned new openings, middlegame strategies, and detailed endgame skills that he can use in future tournaments.",
+    author: "Parent of Advanced Student",
+    role: ""
   }];
   return <Layout>
       {/* Header Section */}
@@ -72,9 +60,7 @@ const GetStarted = () => {
               <CardTitle className="text-2xl text-maroon mb-4">
                 Ready to Begin? Register Your Child Today
               </CardTitle>
-              <p className="text-muted-foreground leading-relaxed">Join our community of chess learners and give your child the opportunity to develop critical thinking skills, strategic planning abilities, and confidence through chess. More information about class placement and class scheduling will be sent as the summer session approaches. The form below asks for a Lichess ID 
-and a USCF Rating. If your child doesn't have a Lichess Username, please create an account for free 
-at Lichess.org. If your child does not have a USCF Rating, please put "None" and if your child is unrated, please put "Unrated". For any questions related to registration, please contact Vedh.bagare@gmail.com</p>
+              <p className="text-muted-foreground leading-relaxed">More information about class placement and class scheduling will be sent as the summer session approaches. If your child doesn't have a Lichess Username, please create an account for free at Lichess.org. If your child does not have a USCF Rating, please put "None" and if your child is unrated, please put "Unrated". For any questions related to registration, please contact Vedh.bagare@gmail.com</p>
             </CardHeader>
             
             <CardContent className="p-8">
