@@ -315,6 +315,33 @@ const Coaches = () => {
           </div>
         </div>
       </section>
+
+      {/* Join Coaching Team Section */}
+      <section className="py-16 bg-muted">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+          <Card className="card-shadow">
+            <CardHeader className="text-center">
+              <CardTitle className="text-2xl text-maroon mb-4">
+                Join our Coaching Team
+              </CardTitle>
+              <p className="text-muted-foreground leading-relaxed">As our organization scales nationally, we are looking for more people to join our team. By coaching here, you get volunteering hours, lots of leadership opportunities, an college application activity (colleges love seeing impact), networking with likeminded individuals, recognition (part of a rapidly growing organization), and  an opportunity to make a real difference in the chess community. Coaches must be in middle/high school and can be from anywhere in the world. You can start with coaching online sessions, and if you are motivated, even launch your own chapter or local chess program under our academy!</p>
+            </CardHeader>
+            
+            <CardContent className="p-8">
+              <div className="bg-background rounded-lg border border-muted p-6">
+                <h2 className="text-2xl font-bold text-center mb-6 text-primary">
+                  Coaching Application Form
+                </h2>
+                <div className="w-full flex justify-center">
+                  <div className="w-full max-w-3xl">
+                    <iframe src="https://tally.so/embed/Me1JVp?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="808" frameBorder="0" marginHeight={0} marginWidth={0} title="Coaches form" className="rounded-lg border"></iframe>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
     </Layout>
   );
 };
