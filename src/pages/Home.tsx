@@ -17,9 +17,9 @@ const Home = () => {
               <p>
                 Our mission is to provide <span className="text-maroon font-semibold">free, high-quality chess coaching</span> for players of all levels.
               </p>
-              <p>Our state champion and national finalist coaches create <span className="text-maroon font-semibold">personalized lessons</span> and work closely with each student to master every part of their game.</p>
+              <p>Our <span className="text-maroon font-semibold">state champion and national finalist coaches</span> create personalized lessons and work closely with each student to master every part of their game.</p>
               <p>
-                We're here to train the next generation of chess players and create <span className="text-maroon font-semibold">future state champions</span>.
+                We're here to <span className="text-maroon font-semibold">train the next generation</span> of chess players and create future state champions.
               </p>
             </div>
 
