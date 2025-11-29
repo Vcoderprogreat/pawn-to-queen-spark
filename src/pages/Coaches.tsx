@@ -324,13 +324,13 @@ const Coaches = () => {
               <CardTitle className="text-2xl text-maroon mb-4">
                 Join our Coaching Team
               </CardTitle>
-              <p className="text-muted-foreground leading-relaxed">As our organization scales nationally, we are looking for more people to join our team. By coaching here, you get volunteering hours, lots of leadership opportunities, an college application activity (colleges love seeing impact), networking with likeminded individuals, recognition (part of a rapidly growing organization), and  an opportunity to make a real difference in the chess community. Coaches must be in middle/high school and can be from anywhere in the world. You can start with coaching online sessions, and if you are motivated, even launch your own chapter or local chess program under our academy!</p>
+              <p className="text-muted-foreground leading-relaxed">As our organization scales nationally, we are looking for more people to join our team. By coaching here, you get volunteering hours, lots of leadership opportunities, an college application activity (colleges love seeing impact), networking with likeminded individuals, recognition (part of a rapidly growing organization), and an opportunity to make a real difference in the chess community. Coaches must be in middle/high school and can be from anywhere in the world. You can start with coaching online sessions, and if you are motivated, even launch your own chapter or local chess program under our academy! Head Coach Vedh will contact you with more details once you fill out the form. Email Vedh.bagare@gmail.com with any questions.</p>
             </CardHeader>
             
             <CardContent className="p-8">
               <div className="bg-background rounded-lg border border-muted p-6">
                 <h2 className="text-2xl font-bold text-center mb-6 text-primary">
-                  Coaching Application Form
+                  Coaching Interest Form
                 </h2>
                 <div className="w-full flex justify-center">
                   <div className="w-full max-w-3xl">
