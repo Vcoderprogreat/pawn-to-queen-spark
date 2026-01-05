@@ -26,7 +26,7 @@ const SummerSession = () => {
   }, {
     level: "Advanced",
     description: "Master tournament preparation, advanced theory, and competitive psychology.",
-    topics: ["Advanced Endgame Theory", "Full Opening Repertoire", "Positional Play", "Complex Calculation", "Master-level Analysis"]
+    topics: ["Advanced Endgame Theory", "Full Opening Repertoire", "Positional Play", "Complex Calculation", "Calculation and Analysis"]
   }];
   return <Layout>
       {/* Header Section */}
