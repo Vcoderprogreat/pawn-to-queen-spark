@@ -48,7 +48,7 @@ const Home = () => {
               <div className="text-lg md:text-xl text-muted-foreground font-medium">Expert Coaches</div>
             </div>
             <div>
-              <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">80+</div>
+              <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">110+</div>
               <div className="text-lg md:text-xl text-muted-foreground font-medium">Students Coached</div>
             </div>
             <div>
@@ -125,6 +125,6 @@ const Home = () => {
       </div>
     </div>
   </div>
-</section>
+  </section>;
 };
 export default Home;
