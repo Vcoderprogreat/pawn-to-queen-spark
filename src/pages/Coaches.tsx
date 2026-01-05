@@ -176,6 +176,34 @@ const Coaches = () => {
       ]
     },
     {
+      name: "Neil Mathur",
+      title: "Intermediate Coach",
+      bio: "I'm Neil, and I learned to play chess from my uncle in India when I was 6 years old. While I started playing just for fun, it quickly grew to become a dedicated hobby. I always have fun playing with friends at school and helping them advance. As a solid, tactical player, I've grown to enjoy complex chess puzzles and compositions, and I love using them to help train students.",
+      achievements: [
+        "1st at Hales Corners Challenge XXXVII, 2025",
+        "4th at NB Eisenhower PRIDE OF THE LIONS OPEN, 2025",
+        "6th at USM FALL ANNUAL AT UNIVERSITY SCHOOL OF MILWAUKEE, 2024",
+        "1st at 6TH MEDICAL COLLEGE OF WISCONSIN SC, 2024",
+        "4th at 2023 BURLEIGH OPEN, 2023",
+        "7th at USM FALL ANNUAL AT UNIVERSITY SCHOOL OF MILWAUKEE, 2023",
+        "3rd at 2022 MUSKEGO MELEE, 2022",
+        "5th at 2022 IAC SEASON OPENER, 2022"
+      ]
+    },
+    {
+      name: "Arovon Mukhopadhyay",
+      title: "Intermediate Coach",
+      bio: "My name is Arovon Mukhopadhyay, and I go to Brookfield Central High School. I originally started playing chess when I was 10 years old, and I improved consistently to finally enter competitive play today. My passion for coaching began when I first taught a few of my friends how to play chess, and I have continued to improve my teaching skills ever since.",
+      achievements: [
+        "#1 U1200 at 2025-2026 Wisconsin Junior Open",
+        "#1 U600/Unrated at 2025 Wisconsin State G/60 Championship (2025)",
+        "2nd Place (U1401 Section) at 4th Annual Daniel Perelman Memorial (2025)",
+        "7th Place (Reserve Section) at Hales Corners Challenge XXXVII (2025)",
+        "4th Place (Booster Section) at 2025 North Central Open",
+        "Top 5 in multiple WSCF tournaments"
+      ]
+    },
+    {
       name: "Pruthvi Vinith",
       title: "Lead Beginner Coach",
       bio: "My name is Pruthvi Vinith, and I am currently in 8th grade at Wisconsin Hills Middle School. I have been playing chess since I was 8 years old and have used my experience in chess to teach my younger brothers the game. Chess has improved my patience, enabling me to focus better in all aspects of life.",
