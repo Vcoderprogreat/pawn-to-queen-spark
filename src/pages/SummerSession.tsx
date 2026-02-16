@@ -44,7 +44,7 @@ const SummerSession = () => {
 
 
       {/* Curriculum Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-background to-muted">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-primary text-center mb-12">
             Curriculum by Level
