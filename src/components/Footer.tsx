@@ -24,7 +24,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-sm text-muted-foreground">
-            © 2025 Pawn to Queen Chess Coaching. All rights reserved.
+            © 2026 Pawn to Queen Chess Coaching. All rights reserved.
           </div>
         </div>
       </div>
