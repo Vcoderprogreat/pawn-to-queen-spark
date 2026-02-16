@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 const Home = () => {
   return <Layout>
       {/* Hero Section */}
-      <section className="relative min-h-[80vh] flex items-center px-4 sm:px-6 lg:px-8 bg-muted">
+      <section className="relative min-h-[60vh] md:min-h-[80vh] flex items-center px-4 sm:px-6 lg:px-8 bg-muted py-10 md:py-0">
         <div className="container mx-auto">
           {/* Left Content */}
           <div className="fade-in max-w-4xl">
