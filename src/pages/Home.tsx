@@ -8,7 +8,7 @@ const Home = () => {
         <div className="container mx-auto">
           {/* Left Content */}
           <div className="fade-in max-w-4xl">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-primary mb-8 leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-primary mb-8 leading-tight">
               Pawn to Queen<br />
               Chess Coaching
             </h1>
@@ -17,10 +17,7 @@ const Home = () => {
               <p>
                 Our mission is to provide <span className="text-maroon font-semibold">free, high-quality chess coaching</span> for players of all levels.
               </p>
-              <p>Our <span className="text-maroon font-semibold">state champion and national finalist coaches</span> create personalized lessons and work closely with each student to master every part of their game.</p>
-              <p>
-                We're here to <span className="text-maroon font-semibold">train the next generation</span> of chess players and create future state champions.
-              </p>
+              <p>Our <span className="text-maroon font-semibold">state champion and national finalist coaches</span> train the next generation of chess players.</p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -44,8 +41,8 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">14</div>
-              <div className="text-lg md:text-xl text-muted-foreground font-medium">Expert Coaches</div>
+              <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">$17k</div>
+              <div className="text-lg md:text-xl text-muted-foreground font-medium">Tuition Value</div>
             </div>
             <div>
               <div className="text-6xl md:text-7xl font-extrabold text-maroon mb-4">110+</div>
