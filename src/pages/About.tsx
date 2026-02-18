@@ -44,7 +44,7 @@ const About = () => {
       {/* Our Impact Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl font-bold text-primary text-center mb-12">Our Impact</h2>
+          <h2 className="text-5xl md:text-6xl font-bold text-primary text-center mb-12">Our Impact</h2>
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
             <div className="text-center md:text-left flex-shrink-0">
               <p className="text-5xl md:text-6xl font-bold text-maroon">$17,000+</p>
@@ -60,8 +60,6 @@ const About = () => {
                     View Complete Impact Calculations
                   </AccordionTrigger>
                   <AccordionContent className="px-6 pb-4">
-                    <h4 className="font-bold text-primary mb-1">Community Impact Valuation</h4>
-                    <p className="text-sm text-muted-foreground mb-4">Total Impact Figure: $17,170</p>
                     <Table>
                       <TableHeader>
                         <TableRow>
@@ -114,7 +112,7 @@ const About = () => {
 
 
       {/* Founder Bio Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-muted">
         <div className="container mx-auto max-w-4xl text-center">
           <div>
             <h2 className="text-3xl font-bold text-primary mb-4">

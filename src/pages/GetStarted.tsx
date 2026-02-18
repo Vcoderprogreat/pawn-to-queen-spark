@@ -3,16 +3,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Quote } from "lucide-react";
 const GetStarted = () => {
   const testimonials = [{
-    quote: "Vedh and all the coaches have been great chess mentors this summer. The classes were very well organized and the curriculum was planned with detail. My son learned some great chess skills, and we definitely saw his game improve over the summer.",
-    author: "Parent of Intermediate Student",
+    quote: "My son's coach has been a great chess mentor this summer. The classes were very well organized and the curriculum was detailed. My son learned some great chess skills, and I definitely saw his game improve over the summer.",
+    author: "Francine K, Parent of Intermediate Student",
     role: ""
   }, {
     quote: "My daughter's teacher was very professional and answered all questions. We took a vacation halfway through the summer session, and Vedh made sure to provide us with the resources to make sure she didn't fall behind. I will definitely sign up my daughter again next year.",
-    author: "Parent of Beginner Student",
+    author: "Ak, Parent of Beginner Student",
     role: ""
   }, {
     quote: "We were thrilled to hear of this summer chess opportunity offered from an experienced high schooler. My son learned new openings, middlegame strategies, and detailed endgame skills that he can use in future tournaments.",
-    author: "Parent of Advanced Student",
+    author: "Aarti V, Parent of Advanced Student",
     role: ""
   }];
   return <Layout>
