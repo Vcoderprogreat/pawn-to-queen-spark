@@ -22,9 +22,8 @@ const GetStarted = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
             Get Started with Pawn to Queen Chess Coaching
           </h1>
-          <p className="text-xl text-muted-foreground">
-            Begin your child's chess journey with expert coaching at no cost
-          </p>
+           <p className="text-xl text-muted-foreground">
+           </p>
         </div>
       </section>
 

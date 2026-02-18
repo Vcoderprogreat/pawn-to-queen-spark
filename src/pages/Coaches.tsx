@@ -272,7 +272,6 @@ const Coaches = () => {
             Meet Our Coaches
           </h1>
           <p className="text-xl text-muted-foreground">
-            Learn from experienced chess players and dedicated educators
           </p>
         </div>
       </section>
