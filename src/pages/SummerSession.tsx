@@ -42,6 +42,22 @@ const SummerSession = () => {
       </section>
 
 
+      {/* 1-1 Mentorship Program Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto max-w-4xl">
+          <Card className="card-shadow">
+            <CardHeader>
+              <CardTitle className="text-2xl text-maroon flex items-center gap-3">
+                1-1 Mentorship Program
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="prose prose-lg max-w-none">
+              <p className="text-muted-foreground leading-relaxed">During the summer session, we identify students who demonstrate strong growth and commitment. These students are invited to our prestigious, year-round 1-1 Mentorship Program, where they are paired with a coach for rigorous, individual training. The program is highly selective and available to all skill levels, requiring a 3–4 hour weekly commitment. This rigorous program has a proven record of increasing student ratings by hundreds of points and helping them win multiple tournaments.</p>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* Curriculum Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-muted">
         <div className="container mx-auto max-w-6xl">
