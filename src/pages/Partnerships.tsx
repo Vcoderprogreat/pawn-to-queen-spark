@@ -39,7 +39,7 @@ const Partnerships = () => {
           {/* Cost & Impact */}
           <h3 className="text-xl font-bold text-primary mb-4">Cost & Impact</h3>
           <p className="text-muted-foreground leading-relaxed text-lg mb-4">
-            We are proud to provide this partnership and instruction valued at $1,600 to Chargers Chess at no cost. This enables the team to put funds toward giving scholarships to their players, enabling a larger tournament presence to low-income students who otherwise wouldn't be able to attend.
+            We are proud to provide this partnership and instruction valued at $1,600 to Chargers Chess at no cost. This enables the team to put funds toward giving scholarships to their players, enabling a larger tournament presence.
           </p>
           <ul className="space-y-2 list-disc list-inside text-muted-foreground text-lg">
             <li>The team sponsored 6 members to the All-Girls Tournament at USM, where they all placed in their respective sections.</li>
