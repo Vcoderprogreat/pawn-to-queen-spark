@@ -77,6 +77,25 @@ const Coaches = () => {
       ]
     },
     {
+      name: "Sarang Sankrithi",
+      title: "Advanced Coach",
+      bio: "My name is Sarang Sankrithi, and I'm a homeschooled 7th grader in the PNW (Pacific Northwest). I started playing chess tournaments when I was 6, and I have always loved it. I am a National Champion, have won many tournaments in the state, and also have a lot of experience volunteering and coaching, with my best coaching result being the team that I coach, Kings High School, getting 2nd place at State Individual. I am very excited to give back to the community again, and can't wait to share my chess knowledge with my students.",
+      achievements: [
+        "1st Place Under Age 11 at the US Junior Open 2024",
+        "1st Place Team in Rookly Esports Chess League Fall Season 2025",
+        "7th Place in 2nd Grade at the Washington State Elementary Chess Championship 2022",
+        "16th Place in 1st Grade in the Washington State Elementary Chess Championship 2021",
+        "1st Place in Class in 7th Grade at the 2025 National K-12 Grade Championships",
+        "14th Place in K-5 Championship at the ChessKid National Festival 2024",
+        "5th Place in Kindergarten at the Seattle Classic Scholastic 2020",
+        "2nd Place in 5-8 Open at the 2023 Chess Mates Fall Kickoff",
+        "1st Place at the 2020 Orlov Summer Open",
+        "1st Place at the 2020 Orlov Fall Open",
+        "2nd Place at the 2024 IL Allgrade Chess Championships",
+        "13th Place at the 2024 Illinois K-8 Chess Championships"
+      ]
+    },
+    {
       name: "Anshu Shesham",
       title: "Advanced Coach",
       bio: "I started learning chess from my dad when I was four years old. In third grade, I joined a chess club and started my competitive career. I practiced constantly and increased my skills, tactics, endgames, and more. Chess has taught me a lot about patience, strategy, and problem-solving, just to name a few. I have played in 50+ tournaments and I continue to learn something new each time. Chess is an amazing game that teaches valuable lessons in life. I really enjoy playing chess and love to coach others so that they can experience the many benefits of this wonderful game that changed my life.",
