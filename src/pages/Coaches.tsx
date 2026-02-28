@@ -79,7 +79,7 @@ const Coaches = () => {
     {
       name: "Sarang Sankrithi",
       title: "Advanced Coach",
-      bio: "My name is Sarang Sankrithi, and I'm a homeschooled 7th grader in the PNW (Pacific Northwest). I started playing chess tournaments when I was 6, and I have always loved it. I am a National Champion, have won many tournaments in the state, and also have a lot of experience volunteering and coaching, with my best coaching result being the team that I coach, Kings High School, getting 2nd place at State Individual. I am very excited to give back to the community again, and can't wait to share my chess knowledge with my students.",
+      bio: "My name is Sarang Sankrithi. I started playing chess tournaments when I was 6, and I have always loved it. I am a National Champion, have won many state tournaments, and have a lot of experience volunteering and coaching, with my best coaching result being the team I coach, Kings High School, placing 2nd at State Individual. I am very excited to give back to the community again, and can't wait to share my chess knowledge with my students.",
       achievements: [
         "1st Place Under Age 11 at the US Junior Open 2024",
         "1st Place Team in Rookly Esports Chess League Fall Season 2025",
