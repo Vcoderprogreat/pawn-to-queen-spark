@@ -43,6 +43,8 @@ const Partnerships = () => {
           <ul className="space-y-2 mb-16 list-disc list-inside text-muted-foreground text-lg">
             <li>The team sponsored 6 members to the All-Girls Tournament at USM, where they all placed in their respective sections.</li>
             <li>The saved funds allowed the Chargers Team to host their own tournament earlier this year, where they had over 70 players attend.</li>
+            <li>The team competed at the 2026 WI Grade Level Championship and had 7 players place, including 1st in multiple grades.</li>
+            <li>The team brings home team trophies from almost all regional tournaments and has become a top team in Southeastern WI.</li>
           </ul>
 
           {/* Testimonial */}
