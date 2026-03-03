@@ -32,18 +32,8 @@ const Partnerships = () => {
             Our partnerships have been incredibly successful so far. Below is a look at our inaugural partnership, where we transformed a team that didn't exist six months ago into a top team in the region and creating several WI Grade Level Champions in the process.
           </p>
 
-          {/* Class Breakdown */}
-          <h3 className="text-xl font-bold text-primary mb-4">A Typical 1-Hour Class</h3>
-          <ul className="space-y-2 mb-16 list-disc list-inside text-muted-foreground text-lg">
-            <li>5-minute puzzle warmup</li>
-            <li>15 minutes teaching openings</li>
-            <li>15 minutes teaching endgames</li>
-            <li>10 minutes on a focus skill (positional play, calculation, attacking, defending & more)</li>
-            <li>15 minutes of guided playing time</li>
-          </ul>
-
           {/* Chargers Chess Partnership */}
-          <h3 className="text-xl font-bold text-primary mb-4">Chargers Chess — Hamilton School District</h3>
+          <h2 className="text-3xl font-bold text-primary mb-4">Chargers Chess — Hamilton School District</h2>
 
           {/* Cost & Impact */}
           <h3 className="text-xl font-bold text-primary mb-4 mt-10">Cost & Impact</h3>
