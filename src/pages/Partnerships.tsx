@@ -13,17 +13,23 @@ const Partnerships = () => {
         </div>
       </section>
 
-      {/* Chargers Chess Partnership */}
+      {/* How It Works */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl font-bold text-primary mb-4">
-            Chargers Chess — Hamilton School District
+          <h2 className="text-3xl font-bold text-primary mb-6">
+            How It Works
           </h2>
-          <p className="text-sm font-medium text-maroon mb-6 uppercase tracking-wider">
-            Inaugural Partnership · 8-Week Pilot Program
+          <p className="text-muted-foreground leading-relaxed text-lg mb-4">
+            As Pawn to Queen grows, we are building partnerships with districts and chess programs to expand our impact. At its core, a partnership means we work alongside an existing or new chess program to help students reach the next level.
+          </p>
+          <p className="text-muted-foreground leading-relaxed text-lg mb-4">
+            Our primary model is sending one of our experienced coaches to deliver in-person lessons using our standardized curriculum. Because most of our coaches are based in Wisconsin, we also offer flexible alternatives like training a program's existing instructor into a proper coach and providing them with our full curriculum to elevate their teaching.
+          </p>
+          <p className="text-muted-foreground leading-relaxed text-lg mb-4">
+            We work closely with every program to customize the partnership to their needs, and we are always flexible with our offerings.
           </p>
           <p className="text-muted-foreground leading-relaxed text-lg mb-10">
-            Every week, one of our coaches goes to Hamilton High School to deliver a live lesson to around 20 students. The majority of our students are intermediates, and we work to develop the skills to help them reach the advanced level.
+            Our partnerships have been incredibly successful so far. Below is a look at our inaugural partnership, where we transformed a team that didn't exist six months ago into a top team in the region and creating several WI Grade Level Champions in the process.
           </p>
 
           {/* Class Breakdown */}
@@ -36,8 +42,11 @@ const Partnerships = () => {
             <li>15 minutes of guided playing time</li>
           </ul>
 
+          {/* Chargers Chess Partnership */}
+          <h3 className="text-xl font-bold text-primary mb-4">Chargers Chess — Hamilton School District</h3>
+
           {/* Cost & Impact */}
-          <h3 className="text-xl font-bold text-primary mb-4">Cost & Impact</h3>
+          <h3 className="text-xl font-bold text-primary mb-4 mt-10">Cost & Impact</h3>
           <p className="text-muted-foreground leading-relaxed text-lg mb-4">
             We are proud to provide this partnership and instruction valued at $1,600 to Chargers Chess at no cost. This enables the team to put funds toward giving scholarships to their players, enabling a larger tournament presence.
           </p>
