@@ -71,9 +71,6 @@ const Partnerships = () => {
             
             <CardContent className="p-8">
               <div className="bg-background rounded-lg border border-muted p-6">
-                <h2 className="text-2xl font-bold text-center mb-6 text-primary">
-                  Partnership Form
-                </h2>
                 <div className="w-full flex justify-center">
                   <div className="w-full max-w-3xl">
                     <iframe src="https://tally.so/embed/VLZa66?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1435" frameBorder="0" marginHeight={0} marginWidth={0} title="Partner With Pawn to Queen!" className="rounded-lg border"></iframe>
