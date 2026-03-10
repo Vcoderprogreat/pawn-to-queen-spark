@@ -56,6 +56,33 @@ const Partnerships = () => {
           <p className="text-sm text-muted-foreground">Program Director</p>
         </div>
       </section>
+
+      {/* Partnership Form Section */}
+      <section className="py-16 bg-muted">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+          <Card className="card-shadow">
+            <CardHeader className="text-center">
+              <CardTitle className="text-2xl text-maroon mb-4">
+                Partner with Pawn to Queen
+              </CardTitle>
+              <p className="text-muted-foreground leading-relaxed">Please fill out the form below and use the Calendly booking link (shows up after form is submitted) to schedule a meeting with Founder Vedh Bagare to finalize the partnership and answer any questions.</p>
+            </CardHeader>
+            
+            <CardContent className="p-8">
+              <div className="bg-background rounded-lg border border-muted p-6">
+                <h2 className="text-2xl font-bold text-center mb-6 text-primary">
+                  Partnership Form
+                </h2>
+                <div className="w-full flex justify-center">
+                  <div className="w-full max-w-3xl">
+                    <iframe src="https://tally.so/embed/VLZa66?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1435" frameBorder="0" marginHeight={0} marginWidth={0} title="Partner With Pawn to Queen!" className="rounded-lg border"></iframe>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
     </Layout>
   );
 };
