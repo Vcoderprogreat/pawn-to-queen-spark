@@ -59,14 +59,11 @@ const GetStarted = () => {
               <CardTitle className="text-2xl text-maroon mb-4">
                 Ready to Begin? Register Your Child Today
               </CardTitle>
-              <p className="text-muted-foreground leading-relaxed">More information about class placement and class scheduling will be sent as the summer session approaches. If your child doesn't have a Lichess Username, please create an account for free at Lichess.org. If your child does not have a USCF Rating, please put "None" and if your child is unrated, please put "Unrated". For any questions related to registration, please contact Vedh.bagare@gmail.com</p>
+              <p className="text-muted-foreground leading-relaxed">More information about class placement and class scheduling will be sent as the summer session approaches. If your child doesn't have a Lichess Username, please create an account for free at Lichess.org. If your child does not have a USCF Rating, please put "None" and if your child is unrated, please put "Unrated". For any questions related to registration, please contact Vedh.bagare@gmail.com. Registering is not a commitment. We will contact you before the summer to confirm availability and to schedule a class time.</p>
             </CardHeader>
             
             <CardContent className="p-8">
               <div className="bg-background rounded-lg border border-muted p-6">
-                <h2 className="text-2xl font-bold text-center mb-6 text-primary">
-                  Registration Form
-                </h2>
                 <div className="w-full flex justify-center">
                   <div className="w-full max-w-3xl">
                     <iframe src="https://tally.so/embed/wAX9ZW?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="765" frameBorder="0" marginHeight={0} marginWidth={0} title="Registration form" className="rounded-lg border"></iframe>
