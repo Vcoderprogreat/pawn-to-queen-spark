@@ -63,10 +63,10 @@ const Partnerships = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <Card className="card-shadow">
             <CardHeader className="text-center">
-              <CardTitle className="text-2xl text-maroon mb-4">
+              <CardTitle className="text-3xl md:text-4xl text-maroon mb-4">
                 Partner with Pawn to Queen
               </CardTitle>
-              <p className="text-muted-foreground leading-relaxed">Please fill out the form below and use the Calendly booking link (shows up after form is submitted) to schedule a meeting with Founder Vedh Bagare to finalize the partnership and answer any questions.</p>
+              <p className="text-muted-foreground leading-relaxed">Please fill out the form below and use the Calendly booking link (shows up after form is submitted) to schedule a meeting with Founder Vedh Bagare to finalize the partnership and answer any questions. Filling out the form is not a commitment, just to get more details before the initial meeting.</p>
             </CardHeader>
             
             <CardContent className="p-8">
