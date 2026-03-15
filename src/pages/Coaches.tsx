@@ -290,21 +290,6 @@ const Coaches = () => {
         "12th at 3rd Annual Daniel Perelman Memorial 2024",
         "10th at Muskego Melee 2024"
       ]
-    },
-    {
-      name: "Subhash Bandarupalli",
-      title: "Advanced Coach",
-      bio: "I have played chess for 5 years. I want to coach because chess has played an important role in my life, and I want to help others experience the same growth it offers. I also teach in-person at Chargers Chess, and my goal is to help more students become strong players and succeed at tournaments.",
-      achievements: [
-        "3rd Place Supernationals VII",
-        "1st place USM Fall Annual 2025",
-        "1st place at 7th grade WSCF grade-level championships",
-        "1st place Muskego Melee",
-        "3rd place Spartan Open 2025",
-        "3rd place Spartan Open 2024",
-        "3rd place IAC season opener 2024",
-        "8th Place, Burleigh Open 2024"
-      ]
     }
   ];
 
