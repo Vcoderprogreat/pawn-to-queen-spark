@@ -96,6 +96,21 @@ const Coaches = () => {
       ]
     },
     {
+      name: "Subhash Bandarupalli",
+      title: "Advanced Coach",
+      bio: "I have played chess for 5 years. I want to coach because chess has played an important role in my life, and I want to help others experience the same growth it offers. I also teach in-person at Chargers Chess, and my goal is to help more students become strong players and succeed at tournaments.",
+      achievements: [
+        "3rd Place Supernationals VII",
+        "1st place USM Fall Annual 2025",
+        "1st place at 7th grade WSCF grade-level championships",
+        "1st place Muskego Melee",
+        "3rd place Spartan Open 2025",
+        "3rd place Spartan Open 2024",
+        "3rd place IAC season opener 2024",
+        "8th Place, Burleigh Open 2024"
+      ]
+    },
+    {
       name: "Anshu Shesham",
       title: "Advanced Coach",
       bio: "I started learning chess from my dad when I was four years old. In third grade, I joined a chess club and started my competitive career. I practiced constantly and increased my skills, tactics, endgames, and more. Chess has taught me a lot about patience, strategy, and problem-solving, just to name a few. I have played in 50+ tournaments and I continue to learn something new each time. Chess is an amazing game that teaches valuable lessons in life. I really enjoy playing chess and love to coach others so that they can experience the many benefits of this wonderful game that changed my life.",
